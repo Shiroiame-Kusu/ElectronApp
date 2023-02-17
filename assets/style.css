@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+    body { background: #232323; color: white; }
+    .sidebar{ background: #191919; color: white;}
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body { background: #ddd; color: black; }
+    .sidebar{ background: white; color: black;}
+  }
+header{
+    width: 100%;
+    height: 50px;
+    -webkit-app-region: no-drag;
+}
+body{
+    box-sizing: border-box;
+}
+.text-white{
+text-align: center;
+color: white;
+}
+.text-black{
+    text-align: center;
+    color: black;
+}
+.sidebar{
+    border: #414141;
+    border-width: 3px;
+    border-radius: 5px;
+    
+    height: 100%;
+    width: 100px;
+}

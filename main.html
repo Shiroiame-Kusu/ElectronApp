@@ -2,20 +2,34 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css" />
     <title>来自 Electron 渲染器的问好！</title>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
   </head>
+  <header class="navbar navbar-dark navbar-expand-lg">
+    <div class="container">
+      <span class="navbar-brand">Test</span>
+      <span class="float-end text-white">
+        <i class=" mr-10" onclick="toMin()"></i>
+        <i class="el-icon-close" onclick="toClose()"></i>
+    </span>
+    
+    </div>
+
+  </header>
   <body>
-    <h1>来自 Electron 渲染器的问好！</h1>
-    <p>👋</p>
-    <p id="info"></p>
+    <div class="main">
+      <div class="sidebar">
+
+      </div>
+      <div class="container">
+
+      </div>
+
+    </div>
   </body>
   <script src="./renderer.js"></script>
 </html>

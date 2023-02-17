@@ -7,6 +7,18 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^23.1.0"
+    "bootstrap": "^5.2.3",
+    "electron": "^23.1.0",
+    "fast-xml-parser": "^4.1.2",
+    "file-type": "^18.2.0",
+    "filenamify": "^5.1.1",
+    "fontawesome": "^5.6.3",
+    "fs-extra": "^11.1.0",
+    "graceful-fs": "^4.2.10",
+    "jquery": "^3.6.3",
+    "tar-fs": "^2.1.1"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
   }
 }
